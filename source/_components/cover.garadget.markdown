@@ -25,11 +25,11 @@ To enable Garadget Covers in your installation, add the following to your `confi
 cover:
   - platform: garadget
     covers:
-      190028001947343412342341:
-        username: YOUR_USERNAME
-        password: YOUR_PASSWORD
-      4c003f001151353432134214:
-        access_token: df4cc785ff818f2b01396c44142342fccdef
+        garadget1:
+          device: 190028001947343412342341:
+          username: YOUR_USERNAME
+          password: YOUR_PASSWORD
+          access_token: df4cc785ff818f2b01396c44142342fccdef
 ```
 
 {% configuration %}
